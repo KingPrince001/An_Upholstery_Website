@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body {
+    background-color: aquamarine;
+}
+
+a {
+text-decoration: none;
+letter-spacing: 0.5px;
+font-weight: bold;
+
+font-family: Arial, Helvetica, sans-serif;
+}
+.container1 a {
+    font-size: 18px;
+}
+.container1 {
+    margin-top: 0px;
+    display: flex;
+    background-color: greenyellow;
+    height: 8vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container1 a:hover {
+    background-color: green;
+padding: 12px 30px;
+color: whitesmoke;
+border: 1px solid black;
+transition: all 1s ease;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 0rem;
+    align-items: flex-start; 
+}
+.title {
+    background-color: greenyellow;
+    color: black;
+    height: 6vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-ser;
+    padding-top: 8px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.title:hover {
+    color: blue;
+}
+.b4_A {
+    height:40vh ;
+    width:20vw ;
+    padding: 5px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+}
+.b4_A img {
+    border-radius: 15px;
+}
+.b4_A:hover {
+    filter:blur(px);
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 2px 4px 2px green;
+}
+
+footer {
+    background-color:#565656;
+    color: whitesmoke;
+ }
+ footer h2 {
+    background-color:#000000 ;
+    height:60px;
+    text-align: center;
+    padding: 15px;
+ }
+ .logo2 {
+    height:60vh ;
+    width:25vw ;
+    font-weight: bold;
+ }
+ .logo2:hover {
+    cursor: all-scroll;
+    transform:translate3d(20px, 20px ,0) ;
+    transition: all 1s ease-in;
+ }
+ .learn{
+    color:  burlywood;
+ }
+ .container6 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+ }
+ 
+ .container7 a {
+    color: whitesmoke;
+    display: block;
+    margin-top: 10px;
+    
+ }
+ .container8 a {
+
+    color: whitesmoke;
+    display: block;
+    padding-top: 10px;
+ }
+ .container9 a {
+    color: whitesmoke;
+    display: block;
+    margin-top: 10px;
+ }
+ .container10 a{
+    margin-left: 10px;
+ }
+ .container10 {
+  
+    margin: 50px;
+    margin-top: 20px;
+ }
+ .container11 {
+    font-size: 40px;
+   background-color:#565656 ;
+ }
+
+ .container11 a:hover{
+    cursor: grab;
+    background-color: blue;
+    padding: 12px 12px;
+    border: 1px solid black;
+    transition: all 1s ease;
+    border-radius: 15px;
+
+ }
+ .container11 a.twitter:hover {
+    cursor: grab;
+    background-color: grey;
+    padding: 12px 12px;
+    border: 1px solid black;
+    transition: all 1s ease;
+    border-radius: 15px;
+ }
+ .container11 a.whatsapp:hover {
+ cursor: grab;
+    background-color: green;
+    padding: 12px 12px;
+    border: 1px solid black;
+    transition: all 1s ease;
+    border-radius: 15px;
+ }
+ .container11 a.instagram:hover {
+    cursor: grab;
+    background-color: blueviolet;
+    padding: 12px 12px;
+    border: 1px solid black;
+    transition: all 1s ease;
+    border-radius: 15px;
+ }
+ .container11 a {
+    color: whitesmoke;
+ }
+ .container7 a:hover{
+    color: greenyellow;
+ }
+ .container8 a:hover{
+    color: greenyellow;
+ }
+ .container9 a:hover{
+    color: greenyellow;
+ }
+ .download {
+    height:9vh ;
+    width:15vw ;
+ }
+ .download:hover {
+    transform: rotate(5deg);
+    transition: all 1s ease-in;
+    cursor: pointer;
+ }
+ .footer2 {
+    text-align: center;
+    height: 12vh;
+ }
+ footer h5 {
+    width: 43.5vw;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    line-height: 2rem;
+    letter-spacing: 0.6px;
+    font-size: 15px;
+ }
+ hr {
+margin-top: 20px;
+margin-left: 300px;
+margin-right: 300px;
+
+ }
+.back {
+    background-color: green;
+}
